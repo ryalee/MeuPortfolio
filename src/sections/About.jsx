@@ -51,7 +51,7 @@ const About = () => {
         <a
           href="https://wa.me/5574999944759"
           target="_blank"
-          className="button-style lg:ml-[160px] md:ml-[265px]"
+          className="button-style ml-[78px] lg:ml-[160px] md:ml-[265px]"
         >
           Vamos Conversar!
         </a>
