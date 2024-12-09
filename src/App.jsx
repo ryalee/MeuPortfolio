@@ -1,6 +1,9 @@
 import About from "./sections/About";
 import Header from "./components/Header";
 import Hero from "./sections/Hero";
+import Projects from "./sections/Projects";
+import ContactForm from "./sections/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +18,9 @@ const App = () => {
         <Header />
         <Hero />
         <About />
+        <Projects />
+        <ContactForm/>
+        <Footer/>
       </div>
     </div>
   );

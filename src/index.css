@@ -11,14 +11,25 @@
 }
 
 .text-shadow {
-  @apply [text-shadow:_2px_0px_13px_rgba(0,198,224,0.64)]
+  @apply [text-shadow:_2px_0px_13px_rgba(0,198,224,0.64)];
 } 
 
 .button-style {
-  @apply bg-blue-600 hover:bg-blue-500 duration-200 font-semibold p-3 w-[80%] text-center;
+  @apply bg-blue-600 hover:bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg ;
 }
 
 .animate-blink {
   animation: blink 0.8s step-end infinite;
 }
 
+.label-style {
+  @apply text-xs lg:self-start;
+}
+
+.input-style {
+  @apply bg-slate-800 py-4 px-3 focus:outline-none placeholder:text-sm rounded-lg lg:w-[100%];
+}
+
+.submit-button-style {
+  @apply border-2 border-slate-800 w-[60%] py-1 mt-2 mb-4 lg:hover:bg-slate-800 duration-300;
+}

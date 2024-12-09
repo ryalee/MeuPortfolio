@@ -2,13 +2,11 @@ import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <header className="flex items-center justify-between py-6">
+    <header className="flex items-center justify-between">
       <div className="flex flex-shrink-0 items-center">
-        <a href="/" className="flex flex-col">
-          <h1 className="text-6xl font-BreeSerif text-blue-100 text-shadow">
-            RA
-          </h1>
-        </a>
+        <h1 className="text-6xl font-BreeSerif text-blue-100 text-shadow cursor-default">
+          RA
+        </h1>
       </div>
 
       <div className="m-8 flex flex-col-reverse items-center justify-center gap-4 text-2xl">

@@ -18,10 +18,10 @@ const HeroText = () => {
   }, [index, text]);
 
   return (
-    <div className="flex items-center space-x-1 font-Code text-4xl sm:text-5xl leading-relaxed">
+    <div className="flex items-center space-x-1 font-Code text-4xl sm:text-6xl leading-relaxed lg:w-[600px] lg:-mt-10">
       <span>
         {displayedText}
-        <span className="inline-block w-[1px] border-r-2 border-white animate-blink align-baseline ml-2 h-[1.2em] absolute -mt-1">
+        <span className="inline-block w-[1px] border-r-2 border-white animate-blink align-baseline ml-2 h-[1.1em] absolute mt-2">
           &nbsp;
         </span>
       </span>

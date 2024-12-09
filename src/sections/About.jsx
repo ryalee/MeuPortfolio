@@ -1,11 +1,11 @@
 const About = () => {
   return (
-    <div className="flex flex-col items-center gap-8">
+    <div className="flex flex-col items-center gap-8 lg:flex-row text-justify lg:content-evenly">
       {/* QUEM SOU */}
-      <section>
-        <h1 className="text-2xl mb-5 text-center">Quem sou?</h1>
-
-        <p>
+      <section className="lg:-mt-[220px]">
+        <h1 className="text-2xl mb-5 text-center lg:text-4xl">Quem sou?</h1>
+        
+        <p className="lg:text-[16pt] lg:w-[500px]">
           Sou desenvolvedor web e mobile com experiência em criação de sites,
           apps e landing pages focadas em resultados, otimizadas para atrair e
           converter visitantes em clientes. Minha paixão por tudo isso me levou
@@ -14,9 +14,11 @@ const About = () => {
         </p>
       </section>
 
-      {/* OQ OFEREÇO? */}
-      <section className="items-center">
-        <h1 className="text-2xl mb-5 text-center">Aqui estão os serviços que ofereço para o seu projeto:</h1>
+      {/* O QUE OFEREÇO */}
+      <section className="lg:w-[500px] lg:ml-40">
+        <h1 className="text-2xl mb-5 text-center lg:text-4xl">
+          Aqui estão os serviços que ofereço para o seu projeto:
+        </h1>
 
         <ul className="flex flex-col list-disc gap-3">
           <li>
@@ -42,9 +44,17 @@ const About = () => {
           </li>
         </ul>
 
-        <h1 className="mt-5 mb-10 text-center">Vamos trabalhar juntos e fazer acontecer!</h1>
+        <h1 className="mt-5 mb-10 text-center">
+          Vamos trabalhar juntos e fazer acontecer!
+        </h1>
 
-        <a href="" className="button-style mt-8 ml-[83px]">Vamos Conversar!</a>
+        <a
+          href="https://wa.me/5574999944759"
+          target="_blank"
+          className="button-style lg:ml-[160px] md:ml-[265px]"
+        >
+          Vamos Conversar!
+        </a>
       </section>
     </div>
   );
