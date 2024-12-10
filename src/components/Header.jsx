@@ -1,4 +1,4 @@
-import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -28,12 +28,6 @@ const Navbar = () => {
           >
             <FaGithub />
           </a>
-        </div>
-
-        <div>
-          <button className="px-3 py-1 text-sm w-50 rounded-xl flex gap-4 items-center border-2 border-solid border-blue-600 hover:bg-blue-600 duration-300 font-semibold">
-            Meu Currículo <FaDownload />{" "}
-          </button>
         </div>
       </div>
     </header>
