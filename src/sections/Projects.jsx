@@ -2,7 +2,7 @@ import projectData from "../constants/projectsDatas";
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4 lg:grid-cols-2 md:grid-cols-2">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 p-4 lg:grid-cols-2">
       {projectData.map((project) => (
         <div
           key={project.id}
@@ -31,6 +31,17 @@ const Projects = () => {
           </div>
         </div>
       ))}
+
+      <div className="flex flex-col items-center text-center">
+        <p className="text-lg  lg:ml-[620px] w-[60%] md:w-[60%] md:ml-[350px]">Gostou do que viu?</p>
+        <a
+          href="https://wa.me/5574999944759"
+          target="_blank"
+          className="button-style mt-4 lg: w-[40%] lg:ml-[620px] md:w-[60%] md:ml-[350px]"
+        >
+          Vamos Conversar!
+        </a>
+      </div>
     </div>
   );
 };

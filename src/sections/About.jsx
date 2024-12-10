@@ -3,7 +3,7 @@ const About = () => {
     <div className="flex flex-col items-center gap-8 lg:flex-row text-justify lg:content-evenly">
       {/* QUEM SOU */}
       <section className="lg:-mt-[220px]">
-        <h1 className="text-2xl mb-5 text-center lg:text-4xl">Quem sou?</h1>
+        <h1 className="titles-style">Quem sou?</h1>
         
         <p className="lg:text-[16pt] lg:w-[500px]">
           Sou desenvolvedor web e mobile com experiência em criação de sites,
@@ -16,7 +16,7 @@ const About = () => {
 
       {/* O QUE OFEREÇO */}
       <section className="lg:w-[500px] lg:ml-40">
-        <h1 className="text-2xl mb-5 text-center lg:text-4xl">
+        <h1 className="titles-style">
           Aqui estão os serviços que ofereço para o seu projeto:
         </h1>
 

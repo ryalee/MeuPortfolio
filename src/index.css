@@ -14,6 +14,14 @@
   @apply [text-shadow:_2px_0px_13px_rgba(0,198,224,0.64)];
 } 
 
+.titles-style {
+  @apply text-2xl mb-5 text-center lg:text-4xl;
+}
+
+.skill-icon-style {
+  @apply flex flex-col items-center mb-5;
+}
+
 .button-style {
   @apply bg-blue-600 hover:bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg;
 }
