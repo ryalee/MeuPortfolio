@@ -41,3 +41,7 @@
 .submit-button-style {
   @apply border-2 border-slate-800 w-[60%] py-1 mt-2 mb-4 lg:hover:bg-slate-800 duration-300;
 }
+
+.logo-lang {
+  @apply w-8
+}

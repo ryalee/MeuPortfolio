@@ -10,22 +10,31 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
-import pyIcon from '../assets/Images/pyicon.png'
+import pyIcon from "../assets/Images/pyicon.png";
+import { useTranslation } from "react-i18next";
+import parseBoldText from "../components/ParseBoldText";
 
 const Skills = () => {
+  const { t } = useTranslation();
+  const soft_SkillsList = t("skills.soft-skills-items", {
+    returnObjects: true,
+  });
+
   return (
     <div className="flex flex-col items-center">
       <div>
-        <h1 className="titles-style lg:mb-8">Minhas Habilidades:</h1>
+        <h1 className="titles-style lg:mb-8">{t("skills.title")}</h1>
       </div>
 
       {/* Hard Skills Section */}
       <section className="flex flex-col gap-2 mb-5">
-        <h2 className="text-xl text-center mb-5 lg:text-2xl">Hard Skills</h2>
+        <h2 className="text-xl text-center mb-5 lg:text-2xl">
+          {t("skills.hard_skills-title")}
+        </h2>
 
         <div className="grid grid-cols-3 items-center w-[340px] lg:grid-cols-6 lg:w-[600px] lg:gap-5">
           <article className="skill-icon-style">
-            <SiJavascript className="text-6xl text-[#f9ee0a]"/>
+            <SiJavascript className="text-6xl text-[#f9ee0a]" />
             <p>Javascript</p>
           </article>
 
@@ -35,7 +44,7 @@ const Skills = () => {
           </article>
 
           <article className="skill-icon-style">
-            <SiHtml5 className="text-6xl text-[#ff7811]"/>
+            <SiHtml5 className="text-6xl text-[#ff7811]" />
             <p>HTML</p>
           </article>
 
@@ -88,35 +97,14 @@ const Skills = () => {
 
       {/* Soft Skills Section */}
       <section>
-        <h2 className="text-xl text-center mb-5 lg:text-2xl">Soft Skills</h2>
+        <h2 className="text-xl text-center mb-5 lg:text-2xl">
+          {t("skills.soft_skills-title")}
+        </h2>
 
         <ul className="flex flex-col list-disc gap-3">
-          <li>
-            <strong>Comunicação:</strong> Explicar ideias técnicas para colegas
-            ou argumentar e opinar nas escolhas de design/estrutura do projeto.
-          </li>
-
-          <li>
-            <strong>Resolução de problemas:</strong> Encontrar soluções
-            criativas e eficientes para bugs e quaisquer desafios encontrados
-            durante o desenvolvimento.
-          </li>
-
-          <li>
-            <strong>Trabalho em equipe:</strong> Colaborar com designers,
-            gerentes de produtos e outros desenvolvedores para atingir objetivos
-            em comum.
-          </li>
-
-          <li>
-            <strong>Gestão de tempo:</strong> Priorizar tarefas para entregar
-            projetos dentro do prazo.
-          </li>
-
-          <li>
-            <strong>Adaptabilidade:</strong> Aprender rapidamente uma nova
-            tecnologia ou se ajustar a mudanças de requisitos em um projeto.
-          </li>
+          {soft_SkillsList.map((service, index) => (
+            <li key={index}>{parseBoldText(service)}</li>
+          ))}
         </ul>
       </section>
     </div>

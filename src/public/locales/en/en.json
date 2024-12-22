@@ -1,0 +1,95 @@
+{
+  "hero": {
+    "title": "From concept to execution, I will create your digital future!",
+    "main-text": "As a full-stack web and mobile developer, I transform ideas into engaging digital experiences. Combining creativity and technology, I create solutions that connect people to the digital future, always focusing on innovation and excellence. Whether for apps, websites or complete platforms, I'm here to take your project to the next level.",
+    "subtitle": "Let's get this idea off the ground today!",
+    "cta": "Let's talk!"
+  },
+  "about": {
+    "section-title": "Who am I?",
+    "description": "I'm a web and mobile developer with experience in creating results-driven websites, apps and landing pages optimized to attract and convert visitors into customers. My mission is to help you create a strong online presence.",
+    "list-title": "Here are the services I offer for your project:",
+    "list-items": [
+      "**Responsive Design:** Your landing page will be 100% responsive, working perfectly on mobile devices, tablets and desktops.",
+      "**Performance and Speed:** Optimized code to ensure fast loading, providing a fluid experience for users.",
+      "**On-Page SEO:** Setting up tags and best practices to improve visibility in search engines.",
+      "**Integration with Marketing Tools:** Such as lead capture forms, Google Analytics, email marketing, among others.",
+      "**Focus on Conversion:** Design with strategic calls to action (CTA) and color psychology to increase conversion."
+    ],
+
+    "section-title2": "Why is my process different?",
+    "list-items2": [
+      "**Agility:** I use agile methodologies to maintain constant communication and deliver results on time.",
+      "**Transparency:** You will be involved in all stages of the project.",
+      "**Results:** Each decision is focused on generating value for your business"
+    ],
+    "subtitle": "Let's work together and make it happen!",
+    "CTA": "Get in touch!"
+  },
+  "WorkTimeline": {
+    "title": "How I work",
+    "subtitle": "Complete process",
+    "steps": [
+      {
+        "title": "Planning and Discovery",
+        "description": "Conversation to understand your ideas, create wireframes and validate the design.",
+        "icon": "📋"
+      },
+      {
+        "title": "Responsive Design",
+        "description": "Creation of a modern layout adapted to all devices.",
+        "icon": "📱"
+      },
+      {
+        "title": "Development",
+        "description": "I transform your design into a functional website or application. Secure and efficient backend, dynamic and fast frontend.",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Testing and Optimization",
+        "description": "I make sure everything works perfectly! I perform quality and performance testing, optimizing for SEO and user experience.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Delivery and Support",
+        "description": "I present the final project with complete documentation. I also provide initial technical support and partner with you for future updates.",
+        "icon": "🚀"
+      }
+    ]
+  },
+  "skills": {
+    "title": "My Skills:",
+    "hard_skills-title": "Hard Skills",
+    "soft-skills-title": "Soft Skills",
+    "soft-skills-items":  [
+      "**Communication:** Explaining technical ideas to colleagues or arguing and providing input on design/structure choices for a project.",
+      "**Problem-solving:** Finding creative and efficient solutions to bugs and any challenges encountered during development.",
+      "**Teamwork:** Collaborating with designers, product managers, and other developers to achieve common goals.",
+      "**Time management:** Prioritizing tasks to deliver projects on time.",
+      "**Adaptability:** Quickly learning a new technology or adjusting to changing requirements on a project."
+    ]
+  },
+  "project-cta": {
+    "title": "Did you like what you saw?",
+    "cta": "Let's talk!"
+  },
+  "contact": {
+    "title": "Thanks for the message",
+    "subtitle": "We will do a great job together!",
+    "sendAnotherMessage": "Send another message",
+    "form": {
+      "nameLabel": "Your Name",
+      "namePlaceholder": "Your nome",
+      "emailLabel": "Your Email",
+      "emailPlaceholder": "Your email",
+      "messageLabel": "What do you want?",
+      "messagePlaceholder": "Message",
+      "submitButton": "Send",
+      "sendingButton": "Sending..."
+    }
+  },
+  "footer": {
+    "title": "Fullstack Web & Mobile Developer",
+    "copyright": "Ryan Alecrim Sodre | Developer | All RIghts Reserved ©"
+  }
+}

@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import LanguageSwitcher from "./LanguageChange";
 
 const Navbar = () => {
   return (
@@ -30,6 +31,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
+      <LanguageSwitcher/>
     </header>
   );
 };

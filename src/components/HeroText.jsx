@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 const HeroText = () => {
-  const text = "Do conceito à execução, eu criarei o seu futuro digital!";
+  const { t } = useTranslation();
+  const text = t("hero.title");
 
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);

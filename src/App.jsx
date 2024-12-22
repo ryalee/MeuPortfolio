@@ -6,6 +6,8 @@ import ContactForm from "./sections/Contact";
 import Footer from "./components/Footer";
 import Skills from "./sections/Skills";
 
+import './../i18n';
+
 const App = () => {
   return (
     <div className="overflow-x-hidden text-stone-300 antialiased">

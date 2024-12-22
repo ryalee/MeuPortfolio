@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="flex flex-col items-center border-t-2">
       <div className="flex justify-between w-[100%]">
@@ -9,7 +12,7 @@ const Footer = () => {
             RA
           </h1>
 
-          <p className="text-sm">Desenvolvedor Fullstack Web & Mobile</p>
+          <p className="text-sm">{t("footer.title")}</p>
         </div>
 
         <div className="m-8 flex flex-col-reverse items-center justify-center gap-4 text-2xl">
@@ -35,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-[8pt] pb-3 lg:text-[10pt]">Ryan Alecrim Sodre | Desenvolvedor 2024 All RIghts Reserved &copy;</p>
+      <p className="text-[8pt] pb-3 lg:text-[10pt]">{t("footer.copyright")}</p>
     </footer>
   );
 };
