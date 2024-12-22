@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="m-8 flex flex-col-reverse items-center justify-center gap-4 text-2xl">
         <div className="flex gap-2">
           <a
-            href="https://www.linkedin.com/in/ryan-alecrim/"
+            href="https://www.linkedin.com/in/ryan-alecrim-sodre/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Linkedin"

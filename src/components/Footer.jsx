@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="m-8 flex flex-col-reverse items-center justify-center gap-4 text-2xl">
           <div className="flex flex-col -ml-[25px] gap-2 lg:flex-row lg:text-2xl">
             <a
-              href="https://www.linkedin.com/in/ryan-alecrim/"
+              href="https://www.linkedin.com/in/ryan-alecrim-sodre/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Linkedin"
