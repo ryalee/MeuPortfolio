@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
 
       <div className="m-8 flex flex-col-reverse items-center justify-center gap-4 text-2xl">
-        <div className="flex gap-2">
+        <div className="flex gap-2 items-center">
           <a
             href="https://www.linkedin.com/in/ryan-alecrim-sodre/"
             target="_blank"

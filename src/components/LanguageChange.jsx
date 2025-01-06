@@ -15,7 +15,7 @@ const LanguageSwitcher = () => {
   return (
     <button onClick={toggleLanguage} className="bg-blue-800 p-2 rounded-full">
       {i18n.language === "pt" ? (
-        <img src={engImg} className="logo-lang" />
+        <img src={engImg} className="logo-lang"/>
       ) : (
         <img src={ptImg} className="logo-lang" />
       )}
