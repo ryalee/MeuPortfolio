@@ -32,7 +32,7 @@ const Hero = () => {
         </a>
 
         <a
-          href="../../public/curriculo.pdf"
+          href="/curriculo.pdf"
           download='curriculo-ryan-alecrim-sodre.pdf'
           className="button-style flex items-center gap-2 self-center lg:w-[45%]"
         >
